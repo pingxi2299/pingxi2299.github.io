@@ -1,0 +1,367 @@
+@charset "UTF-8";
+
+
+
+
+/* 共通部分*/
+
+html {
+    font-size: 100%;
+}
+
+
+body {
+    background-color:rgb(0, 0, 0);
+    margin:0% 0% ;
+    font-family:"cwTeXFangSong","Crimson Text",sans-serif;
+    line-height: 1.7;  /*文字行高*/
+    color: #e6ebeec3;
+}
+
+a {
+    text-decoration: none;  /*連結裝飾取消*/
+    color:#e6ebeec3;
+}
+
+img {
+    max-width: 100%;
+}
+
+article{
+    width:74%;
+}
+
+aside {
+    width: 22%;
+}
+
+artical p{
+    margin-bottom: 1rem;
+}
+
+
+/* big-background*/
+
+.big-bg {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.bg-color{
+    background-color: #0a0e1a ;
+}
+
+
+/*button*/
+
+.button {
+    font-size: 1.5rem;
+    background: #0a0e1a;
+    color:#e6ebeec3;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+
+.button:hover{
+    background: #1e2944 ;
+}
+
+
+/*page-title*/
+
+.page-title {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+
+
+/*content*/
+
+.contents {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size:1.25rem;
+}
+
+
+/*post*/
+
+a:hover{
+    color: #e7bdce;
+}
+
+#post {
+    background-image: url(images/sky.jpg);
+    height: 400px;
+}
+
+#post .page-title{
+    text-transform: none;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 4%;
+}
+
+
+
+.post-title-big{
+    margin-bottom: 4px;
+}
+
+.post-date-big{
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.cat{
+    font-size: 2rem;
+    border-left: 2px rgba(255, 255, 255,.6) solid;
+}
+
+.post-p{
+    border-bottom: 2px rgba(255, 255, 255,.5) solid;
+}
+
+
+.post-info{
+    position:relative;
+    padding-top: 4px;
+    margin-bottom: 4px;
+}
+
+.post-date{
+    color: #e6ebeec3;
+    width: 100px;
+    height:100px;
+    font-size:1.625rem;
+    text-align: center;
+    position:absolute;
+    top:0;
+    padding-top: 10px;
+}
+
+.post-date span{
+    font-size: 1rem;
+    border-top: 1px rgba(255,255, 255, .5) solid;
+    padding-top: 6px;
+    display:block;
+    width:60%;
+    margin:0 auto;
+}
+
+.post-title{
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.post-cat{
+    margin-top: 0;
+    font-size: 1.35rem;
+}
+.post-title,
+.post-cat{
+    margin-left: 120px;
+}
+
+article img{
+    margin-bottom: 20px;
+}
+
+
+/*aside*/
+
+aside p{
+    padding:12px 12px;
+}
+
+.sub-title{
+    font-size: 1.375rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #e6ebeec3 solid;
+    font-weight: normal;
+}
+
+.sub-jour{
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+.sub-jour li{
+    border-bottom: 1px #e6ebeec3 solid;
+}
+
+.sub-jour a{
+    color:#e6ebeec3;
+    padding: 10px;
+    display: block;
+}
+
+.sub-jour a:hover{
+    color: #e7bdce;
+}
+
+
+/* Header*/
+
+.logo{
+    width: 40px;
+    margin-top: 14px;
+}
+
+.main-nav {
+    display: flex; /*並排*/
+    font-size: 1.25rem; /*1.25倍大*/
+    text-transform: uppercase; /*轉大寫*/
+    margin-top: 34px; /*上留白*/
+    list-style: none; /*無清單符號*/
+}
+
+.main-nav li{
+    margin-left:36px; /*最左空白*/
+}
+
+.main-nav a {
+    color: #e6ebeec3;
+}
+
+.main-nav a:hover{  /*碰到這個連結後變色*/
+    color:#e7bdce;
+}
+
+.page-header {
+    display:flex;
+    justify-content: space-between;
+}
+
+.wrapper{ /*整個版面的寬度屬性*/
+    max-width: 1200px;
+    margin:0 auto; /*畫面中央*/
+    padding:0 4%; /*內側留白空間*/
+}
+
+
+
+/*footer*/
+
+footer {
+    background-image: url(images/moon.jpg);
+    background-size: cover;
+    text-align: center; /*垂直的中間*/
+    padding: 26px 0; /*上下26px 左右0*/
+    margin-top: 0%;
+}
+
+footer {
+    color:#e6ebeec3;
+    font-size: 0.875rem;
+}
+
+
+
+/*start*/
+
+#start {
+    background-image: url(images/sky.jpg);
+    min-height: 100vh;
+}
+
+.start-content {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#start .page-title{
+    text-transform: none;
+}
+
+
+/*home*/
+
+#home {
+    background-image: url(images/sky.jpg);
+    height: 300px;
+}
+
+#home .page-title{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 4%;
+}
+
+.home-contents{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#home hr{
+    color:rgba(231, 189, 206, 0.199);
+    width:75%;
+    size:0.5rem;
+}
+
+#home ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+/*work*/
+
+#work {
+    background-image: url(images/sky.jpg);
+    height: 300px;
+}
+
+#work .page-title{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 4%;
+}
+
+
+/*journal*/
+
+#journal {
+    background-image: url(images/sky.jpg);
+    height: 300px;
+}
+
+#journal .page-title{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 4%;
+}
+
+
+/*note*/
+
+#note {
+    background-image: url(images/sky.jpg);
+    height: 300px;
+}
+
+#note .page-title{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 4%;
+}
+
+/*photo*/
+
+#photo {
+    background-image: url(images/sky.jpg);
+    height: 300px;
+}
+
+#photo .page-title{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 4%;
+}
+
